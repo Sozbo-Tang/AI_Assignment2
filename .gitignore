@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Datasets & checkpoints — too large for git; auto-downloaded / regenerated on run
+code/data/
+code/saved_models/
+
+# Training logs
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Local tooling state
+.mimosa/

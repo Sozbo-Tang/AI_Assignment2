@@ -1,0 +1,11 @@
+# R-EDL MNIST experiment dependencies.
+# The upstream repo pinned Python 3.8.5 + PyTorch 1.12.0; none of that is
+# actually required by the code path we use, so we support current versions.
+#
+# On Linux the default PyPI "torch" wheel ships with CUDA 12.x support,
+# which covers the RTX 4060 (compute capability 8.9) out of the box.
+torch>=2.0
+torchvision>=0.15
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
